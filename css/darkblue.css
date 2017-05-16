@@ -187,6 +187,7 @@ ul {
 
 .navbar-brand {
 	padding: 15px;
+	color: #482f86
 }   
       
 /*------------------------------------------*/
@@ -194,12 +195,13 @@ ul {
 /*------------------------------------------*/
 
 .navbar {	
-	background-color: #f0f0f0;
-	border-bottom: 1px solid #ddd;
+	background: url(../img/haende.png) repeat;
+	background-color: #13167d;
+	border-bottom: 1px solid #13167d;
 }
 
 .navbar-nav > li > a {
-	color: #666;	
+	color: #ffffff;	
     display: block;
 	padding: 0 15px;
 	font-size: 16px;
@@ -217,7 +219,7 @@ ul {
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.selected-nav {
 	background: none;
-	border-bottom: 3px solid #34495E;
+	border-bottom: 3px solid #ffffff;
 }
 
 /*------------------------------------------*/
@@ -245,7 +247,8 @@ ul {
    ========================================================================== */ 
    
 #cover {
-	background: url(../img/thumbs/cover_bkg.jpg) center bottom no-repeat;
+	background: url(../img/hintergrund.png) left top no-repeat;
+	background-color: #060856;
 	font-size: 18px;
 }
 
@@ -256,11 +259,16 @@ ul {
 #cover_description {
 	margin: 150px 0;
 	opacity: 0;
+	float: right;
+	color: #f8f8f8;
+	font-family: 'Cantarell', sans-serif;
 }
 
 #cover_description h2 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight:900;
+	color: #f8f8f8;
+	font-family: 'Cantarell', sans-serif;
 }
 
 #cover_description h1 {
@@ -268,8 +276,9 @@ ul {
 	line-height: 60px;
 	text-transform:uppercase;
 	font-weight:900;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: 'Cantarell', sans-serif;
 }
 
 /*------------------------------------------*/

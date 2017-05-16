@@ -38,6 +38,7 @@ Tags: responsive, html5 template, simple, landing page, business, corporate, pro
 	margin-top: 60px;
 } 
  
+
 .theme-color {
 	color: #EB5840;
 }
@@ -245,7 +246,7 @@ ul {
    ========================================================================== */ 
    
 #cover {
-	background: url(../img/thumbs/cover_bkg.jpg) center bottom no-repeat;
+	background: url(../img/thumbs/hintergrund.jpeg) center bottom no-repeat;
 	font-size: 18px;
 }
 
