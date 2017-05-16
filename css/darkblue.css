@@ -232,11 +232,11 @@ ul {
     padding: 10px;
 	margin: 12px 30px 12px 0;
     background-color: none;
-	border: 2px solid #888;
+	border: 2px solid #13167d;
 }
 
 .navbar-toggle .icon-bar {
-	background-color: #888;
+	background-color: #13167d;
 	height: 2px;
 }
 
@@ -262,6 +262,7 @@ ul {
 	float: right;
 	color: #f8f8f8;
 	font-family: 'Cantarell', sans-serif;
+	background-color: #060856;
 }
 
 #cover_description h2 {
