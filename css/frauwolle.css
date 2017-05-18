@@ -187,6 +187,7 @@ ul {
 
 .navbar-brand {
 	padding: 15px;
+	color: #482f86
 }   
       
 /*------------------------------------------*/
@@ -194,6 +195,7 @@ ul {
 /*------------------------------------------*/
 
 .navbar {	
+/* 	background: url(../img/haende.png) repeat; */
 	background-color: #f0f0f0;
 	border-bottom: 1px solid #ddd;
 }
@@ -230,11 +232,11 @@ ul {
     padding: 10px;
 	margin: 12px 30px 12px 0;
     background-color: none;
-	border: 2px solid #888;
+	border: 2px solid #13167d;
 }
 
 .navbar-toggle .icon-bar {
-	background-color: #888;
+	background-color: #13167d;
 	height: 2px;
 }
 
@@ -245,7 +247,8 @@ ul {
    ========================================================================== */ 
    
 #cover {
-	background: url(../img/thumbs/cover_bkg.jpg) center bottom no-repeat;
+	background: url(../img/JungeImBaum2.png) left top no-repeat;
+	background-color: #060856;
 	font-size: 18px;
 }
 
@@ -256,11 +259,17 @@ ul {
 #cover_description {
 	margin: 150px 0;
 	opacity: 0;
+	float: right;
+	color: #f8f8f8;
+	font-family: 'Cantarell', sans-serif;
+	background-color: #060856;
 }
 
 #cover_description h2 {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight:900;
+	color: #f8f8f8;
+	font-family: 'Cantarell', sans-serif;
 }
 
 #cover_description h1 {
@@ -268,8 +277,9 @@ ul {
 	line-height: 60px;
 	text-transform:uppercase;
 	font-weight:900;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: 'Cantarell', sans-serif;
 }
 
 /*------------------------------------------*/
