@@ -462,18 +462,26 @@ p.member-info {
 }
 
 
+#haende-balken {
+	background-image: url(../img/haende.png);	
+	background-repeat: repeat;	
+	background-position: 0 0;
+	background-color: #060856;	
+    padding-top: 70px;
+}
 
 /* ==========================================================================
    06. TESTIMONIALS ROTATOR
    ========================================================================== */
 
 #testimonials-rotator {
-	background-image: url(../img/thumbs/pattern2.png);
-	background-repeat: repeat;
+	background-image: url(../img/thumbs/pattern1.png);	
+	background-repeat: repeat;	
 	background-position: 0 0;
-	background-color: #333;	
+	background-color: #060856;	
 	color: #fff;
     text-align: center;
+    padding-top: 70px;
 }
 
 .testimonials {
@@ -524,6 +532,7 @@ p.member-info {
 
 #pricing-table-holder {
 	padding: 0 30px; 
+	
 }
 
 #price_1, #price_2, #price_3, #price_4 {
@@ -1022,7 +1031,8 @@ p.member-info {
 
 #footer { 
 	padding: 20px 0 15px;
-	background-color: #333;
+	background-color: #060856;
+/* 	background-image: url(../img/haende.png); */
 }
 
 #footer p {
